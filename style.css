@@ -4,3 +4,30 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+/* Style for the modal (in your style.css or another CSS file) */
+.modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    /* Add more styles as needed */
+}
+
+.modal-content {
+    position: relative;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    width: 500px;
+    /* Add more styles as needed */
+}
+
+.hidden {
+    display: none;
+}
+
+#closeModal {
+    font-size: 24px;
+    cursor: pointer;
+}
